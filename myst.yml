@@ -1,15 +1,13 @@
 version: 1
 project:
-  title: >-
-    " 📊Fixed Income Futures"
+  title: "📊 Fixed Income Futures"
   abstract: |
     Pricing Futures
-  github: PatrickJHess/Derivatives-Futures-Chapter-Four
-  copyright: >-
-    2025 by the University of Virginia Darden School Foundation,
-    Charlottesville, VA.
+  index: intro.md
+  github: PatrickJHess/Derivative-Futures-Chapter-Four
+  copyright: "2025 by the University of Virginia Darden School Foundation, Charlottesville, VA."
   authors:
-    - name: ""
+    - name: "Patrick J. Hess"
 
 
 #  exports:
