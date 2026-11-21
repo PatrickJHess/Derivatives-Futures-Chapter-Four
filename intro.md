@@ -35,7 +35,7 @@ This collaborative capstone exercise includes hints that guide you through the w
 Think of this Jupyter Book as a unique hybrid learning tool. It navigates like a modern website and reads with the narrative flow of an ebook, but packs the interactive computational power of Jupyter and Google Colab. By allowing you to manipulate real-world data and execute live code directly on the page, it seamlessly bridges the gap between abstract financial theory and applied modeling.
 
 :::{dropdown} 🪐 How to Interact with Jupyter Books (Click to Expand)
-:color: primary
+
 
 ```{include} jupyter_instructions.md
 ```
