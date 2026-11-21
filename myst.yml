@@ -19,7 +19,7 @@ project:
     - title: 'Chapter Four: 📊Fixed Income Futures'
       children:
         - title: '📊 Short-Term Interest Rate Contracts: The 3-Month SOFR Futures'
-          file: notebooks/short_term_contract.ipynb
+          file: notebooks/short_term_contracts.ipynb
         - title: '🏦 Short-Term Interest Rate Contracts: 1-Month SOFR and Fed Fund Futures'
           file: notebooks/1_month_sofr_fed_funds.ipynb
         - title: ' 🔄 Bond and Notes:The Pivot From Cash Settlement to Physical Delivery'
