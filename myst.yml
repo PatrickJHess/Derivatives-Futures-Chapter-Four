@@ -20,9 +20,9 @@ project:
       id: my_pdf_export     # The "name" of this specific job
 
   # 2. FIXED INDENTATION FOR DOWNLOADS
-  downloads:
-    - id: my_pdf_export     # MUST match the ID in the exports block above
-      title: Download PDF
+ # downloads:
+ #   - id: my_pdf_export     # MUST match the ID in the exports block above
+ #     title: Download PDF
       
   copyright: "2025 by the University of Virginia Darden School Foundation, Charlottesville, VA."
   authors:
