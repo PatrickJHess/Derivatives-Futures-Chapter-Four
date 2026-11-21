@@ -5,6 +5,9 @@
     <loc>http://pre.render</loc>
   </url>
   <url>
+    <loc>http://pre.render/short-term-contracts</loc>
+  </url>
+  <url>
     <loc>http://pre.render/month-sofr-fed-funds</loc>
   </url>
   <url>
