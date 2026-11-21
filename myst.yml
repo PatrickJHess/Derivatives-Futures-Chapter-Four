@@ -12,27 +12,7 @@ project:
       ref: main
       url: https://mybinder.org
 
-  # 1. UNCOMMENTED EXPORTS
-  exports:
-    - format: pdf
-      template: lapreprint-typst
-      output: book.pdf      # The filename it creates
-      id: my_pdf_export     # The "name" of this specific job
-
-  # 2. FIXED INDENTATION FOR DOWNLOADS
- # downloads:
- #   - id: my_pdf_export     # MUST match the ID in the exports block above
- #     title: Download PDF
-      
-  copyright: "2025 by the University of Virginia Darden School Foundation, Charlottesville, VA."
-  authors:
-    - name: "Patrick J. Hess"
-
-site: 
-  options:
-    repository: https://github.com/PatrickJHess/Derivative-Futures-Chapter-Four
-    style: shared_files_finpy/static/custom.css
-    base_url: /Derivative-Futures-Chapter-Four/
+  # MOVED HERE: 'toc' now sits directly under 'project:'
   toc:
     - title: Introduction
       file: intro.md
@@ -59,6 +39,15 @@ site:
         - title: 'Chapter Three: 📊 Synthetic Portfolios and Benchmark Risk Spanning'
           url: https://patrickjhess.github.io/Derivatives-Futures-Chapter-Three/
 
+  copyright: "2025 by the University of Virginia Darden School Foundation, Charlottesville, VA."
+  authors:
+    - name: "Patrick J. Hess"
+
+# 'site:' now ONLY contains 'options:'
+site: 
+  options:
+    repository: https://github.com/PatrickJHess/Derivative-Futures-Chapter-Four
+    base_url: /Derivative-Futures-Chapter-Four/
 
 
 
