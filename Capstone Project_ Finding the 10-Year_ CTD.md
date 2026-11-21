@@ -12,7 +12,7 @@ Unlike the Long Bond basket we studied previously, the 10-Year contract has narr
 2. **Calculate Total Invoice Price:** You need the settlement price on November 9, 2026, the conversion factors, and the accrued interest of the eligible bonds on the delivery date.  
 3. **Calculate Forward Cash Prices:** Recall that the Forward Cash Price is the dirty price and the cost of carry (borrowing costs net of accrued coupons).  
 4. **Determine CTD Note:** Calculate the Net Basis for each and find the minimum value. Recall that the Net Basis is the Forward Cash Price less the Principal Invoice Price.  
-5. **Implied Repo And \$\\Delta^{min}\_t\$:** Use the current SOFR rate.  
+5. **Implied Repo And $\Delta^{min}_t$:** Use the current SOFR rate.  
 6. **Demonstrate Alternative Bonds:** Determine the yield to maturity, duration, and convexity for the three bonds with the lowest Net Basis.
 
 ---
@@ -44,7 +44,7 @@ Unlike the Long Bond basket we studied previously, the 10-Year contract has narr
    * Create a DataFrame from the three bonds.  
    * Use the functions `create_payoff_df` and `calc_bond_metrics_2d`
 
-:::{dropdown} 🪐 Here Is A Solution (Click to Expand)
+:::{dropdown} 🔑 Here Is A Solution (Click to Expand)
 
 ```{include} Chapter_Four.md
 
