@@ -42,7 +42,7 @@ Unlike the Long Bond basket we studied previously, the 10-Year contract has narr
    * Use SOFR and Net Basis of the CTD note  
 6. **Demonstrate Alternative Bonds:**  
    * Create a DataFrame from the three bonds.  
-   * Use the functions `create_payoff_df` and `calc_bond_metrics_2d`
+   * Use the functions `create_payoff_df` and `calc_bond_metrics_2d`git ad
 
 :::{dropdown} 🔑 Here Is A Solution (Click to Expand)
 
