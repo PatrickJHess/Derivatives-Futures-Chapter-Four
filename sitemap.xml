@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://pre.render/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://pre.render</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/chapter-summary</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/imported-functions</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/intro</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/jupyter-instructions</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/colab-1-month-sofr-fed-funds</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/colab-short-term-contracts</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/colab-treasury-futures</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/month-sofr-fed-funds</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/short-term-contracts</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/treasury-futures</loc>
+  </url>
+</urlset>
