@@ -44,10 +44,8 @@ Unlike the Long Bond basket we studied previously, the 10-Year contract has narr
    * Create a DataFrame from the three bonds.  
    * Use the functions `create_payoff_df` and `calc_bond_metrics_2d`
 
-:::{dropdown} 🪐 How to Interact with Jupyter Books (Click to Expand)
-:color: primary
+:::{dropdown} 🪐 Here Is A Solution (Click to Expand)
 
 ```{include} Chapter_Four.md
-```
-:::
 
+:::
