@@ -826,6 +826,7 @@ def calc_bond_metrics_2d(guesses, cash_flows, mat_years, prices):
         return ytm[0], duration[0], convexity[0]
 
     return ytm, duration, convexity
+```
 
 :::
 
