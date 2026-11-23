@@ -19,3 +19,14 @@ notebooks/*.json
 
 
 notebooks/cache/
+
+# Dynamically downloaded function markdown files
+FEDInvest.md
+FredReader.md
+MASSIVEReader.md
+calc_bond_metrics_2d.md
+clean_FEDInvest.md
+one_y_axis.md
+stacked_charts.md
+static_futures_data.md
+Chapter_Four.md

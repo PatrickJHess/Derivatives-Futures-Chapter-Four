@@ -32,7 +32,8 @@ massive_data = fq.MASSIVEReader(calls_per_minute=5)
 ## ***Get Eligible Bonds***
 
 ```py
-# Load the curated CME conversion factor data for the Dec 2026 (ZBZ6) contract
+# Note the basis contract code is ZN not ZB
+# Load the curated CME conversion factor data for the Dec 2026 (ZNZ6) contract
 # static_futures_data function included in financial_quant
 df_eligible = fq.static_futures_data('CME_Data_UST_10Y_DEC_2026', index_name='Maturity')
 
@@ -135,8 +136,7 @@ false_value = df_ctd[['END OF DAY', 'Price Bid', 'Price Ask']].max(axis=1)
 # equivalent to a vectorized if-else assignment of clean price
 df_ctd['Clean Price'] = np.where(bid_ask_true, true_value, false_value)
 ```
-
-# ---
+---
 
 # ***Step 2***
 
@@ -156,6 +156,9 @@ sofr_rate=sofr_rate/100
 ## ***\`timing\_option\`***
 
 ```py
+# Function from 
+#*🔄 Bond and Notes:The Pivot From Cash Settlement to Physical Delivery*
+
 def timing_option(settlement, maturity, coupon, clean_price, sofr_rate, freq=2):
    """
    Calculates accrued interest, dirty price, daily carry, and the optimal delivery
@@ -212,6 +215,9 @@ def timing_option(settlement, maturity, coupon, clean_price, sofr_rate, freq=2):
 ## ***Calculate Values***
 
 ```py
+
+#Function from 
+#🔄 Bond and Notes:The Pivot From Cash Settlement to Physical Delivery
 df_ctd[['Accrued_Interest', 'Dirty Price', 'Daily_Accrual', 'Daily_Cost', 'Next_Coupon_Date']] = df_ctd.apply(
     lambda row: timing_option(settlement,row.name,row['Coupon'],row['Clean Price'],sofr_rate),
     axis=1,
@@ -337,7 +343,6 @@ df_clean_ctd = df_clean_ctd.sort_values(by='Net_Basis')
 display(df_clean_ctd[['Clean Price','Spot_Dirty', 'Optimal_Delivery', 'Net_Basis_First', 'Net_Basis_Last', 'Net_Basis']].head(3))
 
 ```
-
 ---
 
 # ***Step 6***
